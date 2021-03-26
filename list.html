@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>Kimeme</title>
+          <link rel="stylesheet"   href="style.css">
+          <script src="list.js"></script>
+     </head>
+     <body>
+
+          <div>
+            <header >
+           <nav>
+          <a href="home.html">Kimeme</a>||
+          <a href="signup.html">signup</a>||
+          <a href="vedio.html">vedio</a>||
+          <a href="list.html">list</a>
+          </nav>
+          </header>
+          <ol id="content">
+
+          </ol>
+        <script>
+            let arr=['Mitmita','Korerima','Berbere',"shiro",'Koserete']
+            
+            let list=''
+            for(let elem of arr){
+                list=list + "<li>"+elem +"</li>"
+            }
+           document.getElementById('content').innerHTML=list
+           
+          console.log(list)
+        </script>
+               
+         
+
+      
+       
+          
+
+
+
+          <footer>Contact:Kimeme@gmail.com for more.</footer>
+
+          </div>
+          
+
+
+     </body>
+</html>

@@ -1,0 +1,20 @@
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  padding: 15px;
+  background-color: dimgray;
+}
+
+header {
+  background-color: dimgray;
+  padding: 20px;
+  font-size: larger;
+  width: 100%;
+}
+
+form{
+     padding:20px;
+}
